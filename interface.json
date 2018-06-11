@@ -1,0 +1,30 @@
+{
+  "information": {
+    "type": "string",
+    "default": "Contact me by filling out the form"
+  },
+  "yourEmail": {
+    "type": "string",
+    "default": "example@currentcoincreate.com"
+  },
+  "showFirstName": {
+    "type": "boolean",
+    "default": "true"
+  },
+  "showLastName": {
+    "type": "boolean",
+    "default": "true"
+  },
+  "showCompanyName": {
+    "type": "boolean",
+    "default": "true"
+  },
+  "showCompanyEmail": {
+    "type": "boolean",
+    "default": "true"
+  },
+  "showPhoneNumber": {
+    "type": "boolean",
+    "default": "true"
+  }
+}

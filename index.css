@@ -1,0 +1,19 @@
+html, body, #root, .contact-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-wrapper {
+  background: rgb(255, 250, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
