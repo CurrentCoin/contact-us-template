@@ -1,0 +1,30 @@
+{
+  "name": "contact-us-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/react-template-preview/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurrentCoin/contact-us-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurrentCoin/contact-us-template/issues"
+  },
+  "homepage": "https://github.com/CurrentCoin/contact-us-template#readme",
+  "dependencies": {
+    "@material-ui/core": "^1.2.1",
+    "axios": "^0.18.0",
+    "camel-case": "^3.0.0",
+    "react-template-preview": "^1.0.27",
+    "title-case": "^2.1.1"
+  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node node_modules/react-template-preview/index.js"
+}

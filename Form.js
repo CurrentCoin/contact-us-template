@@ -64,32 +64,35 @@ export default class Form extends Component {
 
   render() {
     return (
-      <div className='form'>
-        <List>
 
-          {
-            Object.keys(this.state).map(fieldName => (
-              this.props[camelCase('show '.concat(fieldName))]
-                ? (
-                  <ListItem key={fieldName}>
-                    <TextField
-                      label={titleCase(fieldName)}
-                      name={fieldName}
-                      value={this.state[fieldName]}
-                      onChange={this.handleChange(fieldName)}
-                    />
-                  </ListItem>
-                )
-                : null
-            ))
-          }
+        <div className='form'>
+          <List>
 
-          <ListItem>
-            <Button variant='contained' onClick={this.handleSubmit}>
-              Submit
-            </Button>
-          </ListItem>
-        </List>
+            {
+              Object.keys(this.state).map(fieldName => (
+                this.props[camelCase('show '.concat(fieldName))]
+                  ? (
+                    <ListItem key={fieldName}>
+                      <TextField
+                        label={titleCase(fieldName)}
+                        name={fieldName}
+                        value={this.state[fieldName]}
+                        onChange={this.handleChange(fieldName)}
+                        className="textFields"
+                      />
+                    </ListItem>
+                  )
+                  : null
+              ))
+            }
+
+            <ListItem>
+              <Button variant='contained' onClick={this.handleSubmit}>
+                Submit
+              </Button>
+            </ListItem>
+            <div className='box'></div>
+          </List>
       </div>
     )
   }
