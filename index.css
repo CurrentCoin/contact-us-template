@@ -2,7 +2,7 @@ html, body, #root, .contact-wrapper {
   height: 100%;
   width: 100%;
   margin: 0;
-  /* background-image: url(contact.jpg); */
+  background-image: url(contact.jpg);
   position: fixed;
 }
 
@@ -18,13 +18,5 @@ html, body, #root, .contact-wrapper {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.box {
-  background-color: cornflowerblue;
-  opacity: .35;
-  width: 150%;
-  height: 150%;
-  margin-top: 40px;
-  border: 5px solid black;
+  background-color: rgba(6, 26, 79, .1);
 }

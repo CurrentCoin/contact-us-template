@@ -64,7 +64,7 @@ export default class Form extends Component {
 
   render() {
     return (
-
+      
         <div className='form'>
           <List>
 
@@ -91,7 +91,6 @@ export default class Form extends Component {
                 Submit
               </Button>
             </ListItem>
-            <div className='box'></div>
           </List>
       </div>
     )
