@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/react-template-preview/index.js"
+    "start": "nodemon node_modules/react-template-preview/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "@material-ui/core": "^1.2.1",
     "axios": "^0.18.0",
     "camel-case": "^3.0.0",
-    "react-template-preview": "^1.0.27",
+    "react-template-preview": "latest",
     "title-case": "^2.1.1"
   },
   "test": "echo \"Error: no test specified\" && exit 1",
