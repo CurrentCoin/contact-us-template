@@ -1,16 +1,12 @@
-html, body, #root, .contact-wrapper {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background-image: url(contact.jpg);
-  position: fixed;
-}
-
 .contact-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(contact.jpg);
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .form {
