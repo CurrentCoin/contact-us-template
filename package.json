@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon node_modules/react-template-preview/index.js"
+    "start": "nodemon -e js,json,css node_modules/react-template-preview/index.js"
   },
   "repository": {
     "type": "git",

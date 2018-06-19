@@ -15,4 +15,9 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(6, 26, 79, .1);
+  padding: 1em;
+}
+
+.info-box {
+  width: 80%;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Button from '@material-ui/core/Button'
 import Dialog from '@material-ui/core/Dialog'
 import DialogTitle from '@material-ui/core/DialogTitle'
+import Typography from '@material-ui/core/Typography'
 
 import Form from './Form'
 import './index.css'
@@ -29,7 +30,14 @@ export default class ContactUs extends Component {
     return (
       <div className='contact-wrapper'>
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' />
-        {this.props.information}
+        <Typography
+          className='info-box'
+          align='center'
+          variant='subheading'
+          gutterBottom
+        >
+          {this.props.information}
+        </Typography>
 
         <Dialog
           open={this.state.dialogOpen}
